@@ -6,6 +6,7 @@ Pick out the part of the tweet (word or phrase) that reflects the labeled sentim
 
 Eg:- 
 
+'''
 Tweet:- "My ridiculous dog is amazing." 
 Labeled sentiment:- positive
 Predict:- "amazing"
@@ -13,5 +14,6 @@ Predict:- "amazing"
 Tweet:- "Sick. With a flu like thing." 
 Labeled sentiment:- negative
 Predict:- "Sick."
+'''
 
 https://huggingface.co/models
