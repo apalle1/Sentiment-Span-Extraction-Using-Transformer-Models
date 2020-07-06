@@ -17,4 +17,16 @@ Labeled sentiment: negative
 Predict: "Sick."
 ```
 
-https://huggingface.co/models
+## Models 
+
+Albert Large V2 - https://huggingface.co/albert-large-v2
+
+Bert Base Uncased - https://huggingface.co/bert-base-uncased
+
+Bert Large Uncased Whole Word Masking Finetuned Squad - https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad
+
+Distil Roberta Base - https://huggingface.co/distilroberta-base
+
+Roberta Base Squad2 - https://huggingface.co/deepset/roberta-base-squad2
+
+Roberta large Squad2 - https://huggingface.co/a-ware/roberta-large-squadv2
