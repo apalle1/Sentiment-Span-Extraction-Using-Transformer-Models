@@ -23,7 +23,7 @@ Albert Large V2 - https://huggingface.co/albert-large-v2
 
 Bert Base Uncased - https://huggingface.co/bert-base-uncased
 
-Bert Large Uncased Whole Word Masking Finetuned Squad - https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad
+Bert Large Uncased WWM Finetuned Squad - https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad
 
 Distil Roberta Base - https://huggingface.co/distilroberta-base
 
