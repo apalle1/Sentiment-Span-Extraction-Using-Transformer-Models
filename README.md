@@ -30,3 +30,5 @@ Distil Roberta Base - https://huggingface.co/distilroberta-base
 Roberta Base Squad2 - https://huggingface.co/deepset/roberta-base-squad2
 
 Roberta large Squad2 - https://huggingface.co/a-ware/roberta-large-squadv2
+
+Loss :- Crossentropy, Label smoothing, Smotthing the targets (winner solution)
