@@ -32,6 +32,48 @@ Roberta large Squad2 - https://huggingface.co/a-ware/roberta-large-squadv2
 
 ## Hyperparameters
 
+```
+class config:
+
+  # https://huggingface.co/deepset/roberta-base-squad2
+  # Paths
+  TOKENIZER_PATH = './input/roberta-tokenizer'
+  TRAINED_MODEL_PATH = './input/roberta-large-squad2'
+  TRAIN_FILE = './input/tweet-sentiment-extraction/train_folds.csv' 
+  TEST_FILE = './input/tweet-sentiment-extraction/test.csv'
+  SAVE_WEIGHTS_PATH = './output/Roberta Large'
+  SAMPLE_SUBMISSION_FILE = './input/tweet-sentiment-extraction/sample_submission.csv' 
+  FINAL_SUBMISSION_FILE = './output/Roberta Large' 
+
+  # Model config
+  MODEL_CONFIG = './input/configs/roberta_large.json'
+
+  # Model params
+  SEED = 25
+  N_FOLDS = 5
+  EPOCHS = 4
+  LEARNING_RATE = 3e-5
+  PATIENCE = None
+  EARLY_STOPPING_DELTA = None
+  TRAIN_BATCH_SIZE = 32
+  VALID_BATCH_SIZE = 32
+  MAX_LEN = 96  # actually = 86
+  TOKENIZER = tokenizers.ByteLevelBPETokenizer(
+      vocab_file=f'{TOKENIZER_PATH}/vocab.json',
+      merges_file=f'{TOKENIZER_PATH}/merges.txt',
+      lowercase=True,
+      add_prefix_space=True)
+  HIDDEN_SIZE = 1024
+  N_LAST_HIDDEN = 24
+  HIGH_DROPOUT = 0.6
+  SOFT_ALPHA = 0.4
+  WARMUP_RATIO = 0.25
+  WEIGHT_DECAY = 0.001
+  USE_SWA = False
+  SWA_RATIO = 0.9
+  SWA_FREQ = 30
+```
+
 ## Preprocessing 
 
 ## Model Architecture
